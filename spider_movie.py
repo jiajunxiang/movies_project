@@ -103,7 +103,7 @@ def main():
         keywords = {x: keywords[x] for x in keywords if x not in stopwords}
         print("删除停用词后", keywords)
         # 生成对象
-        img = Image.open_url("20221024.png")  # 打开遮罩图片
+        img = Image.open("20221024.png")  # 打开遮罩图片
         mask = np.array(img)  # 将图片转换为数组
         # ###########用词云进行显示
         wc = wordcloud.WordCloud(
