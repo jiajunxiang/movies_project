@@ -1,2 +1,3 @@
 # spider_movies
 爬取网络平台电影详情
+spider_movie是数据清洗之后带分词效果的
